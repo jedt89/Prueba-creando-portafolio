@@ -66,3 +66,8 @@ body {
   background-color: #19234d;
   border-bottom: 1px solid #0eecda;
 }
+
+.rounded-circle-img:hover {
+  transition: all 0.3s linear;
+  box-shadow: 0px 0px 15px 0px #0eecda;
+}
