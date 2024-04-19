@@ -34,7 +34,6 @@ body {
 .card-img-top {
   width: auto;
   height: 200px;
-  
 }
 
 .custom-border {
@@ -42,12 +41,23 @@ body {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
-  }
+}
 
-  .fucsita {
-    color: #0eecda;
-  }
+.fucsita {
+  color: #0eecda;
+}
 
- 
+.border-hover:hover {
+  transition: all 0.1s linear;
+  scale: 1.02;
+  box-shadow: 0px 0px 10px 0px #0eecda;
+  border: 1px solid #0eecda;
+  border-radius: 8px;
+}
 
-  
+.nav-button:hover {
+  transition: all 0.1s linear;
+  scale: 1.02;
+  text-shadow: 0px 0px 15px #0eecda;
+  border-bottom: 1px solid #0eecda;
+}
